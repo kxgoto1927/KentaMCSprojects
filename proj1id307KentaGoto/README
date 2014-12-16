@@ -1,0 +1,13 @@
+%%
+%% Stock Inventory Project
+%%
+%% Programmer: Kenta Goto  UIN: 659189275
+%% U. of Illinois, Chicago
+%% MCS360, Fall 2014
+%% Professor Lowman
+%% Project 1
+
+In many aspects of life, organization is key.  This holds true especially in the business industry.  In particular, in the retail sector.  There are warehouses upon warehouses of products.  One must somehow manage to organize all these products efficiently.  This is when computers step in to solve this problem.  This program automates things that otherwise would be cumbersome.
+
+The infrastructure of this program is rather simple.  We only dip our toes into what is known as data structures.  Infact, the only data structure, if any, is a resizable array called a vector.  This array contains pointers to dynamically allocated objects(items of products, in our case).  This array stores all the products as the client reads files or manually adds items.  
+
