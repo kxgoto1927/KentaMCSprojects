@@ -1,0 +1,12 @@
+%%
+%% Infix and Postfix Expression Project
+%%
+%% Programmer: Kenta Goto  UIN: 659189275
+%% U. of Illinois, Chicago
+%% MCS360, Fall 2014
+%% Professor Lowman
+%% Project 3
+
+When evaluationg a mathematical expression, one would expect a tradional infix notation, i.e 1 + 2 + 3.  However, when using a computer to evaluate an expression, it is often not desirable.  That's when postfix fix expressions come in handy.
+
+In this project we let the user input any kind of mathematical expression with limited operations.  Then the program preprocesses it, converts it to postfix, and then evaluates it.  The main data structure used are stacks.  

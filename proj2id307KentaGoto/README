@@ -1,0 +1,24 @@
+/*!
+ * \author Kenta Goto
+ * \file README
+ * \brief Summary of the project.
+ */
+
+
+ Computers are often used to store and efficiently use data.  In this project we implement a linked list as the
+ primary data structure.  However, this linked list is implemented in a class.  This converts the Abstract data type
+ to a higher level.  In other words, it hides some of the functionality to the user.
+
+ This program creates Polynomials.  It is menu-driven, so user just needs to interact with the console.
+
+ However, if you are interested in the infrastructure of the program, here is a synopsis:
+ Class contains a lot of public functions, basic ones that one would expect to able to do with polynomials.
+ The private members contain a pointer that points to the first term in the polynomial.  As well as other
+ functions that are there because of reccursive means.  Standard insertion and extraction operators are
+ overloaded to use string streams.  String streams are used to print out polynomials in a way that they would
+ look in 'real' life.  Ex. + -1x^2 is simply -x^2.  Obvious operations one polynomials such as add,subtract, multiply
+ etc. are added to the class functions.
+
+
+ Type make clean, then ./run to run the program.
+
