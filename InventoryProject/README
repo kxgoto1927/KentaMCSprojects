@@ -1,0 +1,13 @@
+/*! \file README
+ *	\Author Kenta Goto
+ *	\brief Synopsis of entire program.
+ */
+
+As a programmer, it is always in the individual's interest to be versatile in numerous computer languages.  What is the best way
+to learn a language? One is obvious: to practice and write code.  One that is not so obvious, but very effective, is to re-write
+a program written in a different language.  I already wrote this project in C++ (https://github.com/kxgoto1927/KentaMCSprojects).  So,
+the main objective was to learn Java.
+
+The program itself is very simple.  Computers should help provide solutions for real life applications.
+The problem I asses here is the lack of organization in retail inventory.  The program helps automate and track inventory.
+An arraylist is used instead of a vector.  Over all very simple and self-explanatory.   
